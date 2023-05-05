@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    box-shadow: 0 2px 4px 0 black;
+}
+
+#banner{
+    background-image: url("/imagenes/sillon.jpg");
+    background-size: cover;
+    padding-top: 70px;
+    min-height: 600px;
+    color: white;
+}
+
+.titulo{
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    margin-bottom: 20px;
+}
+
+footer a{
+    color: orange;
+    font-size: 35px;
+    letter-spacing: 15px;
+}
+
+.Productos{
+    width: 100%;
+    min-height: 500px;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    padding: 20px;
+    grid-gap: 15px;
+}
+
+.item{
+    border: 3px solid grey;
+    background-size: cover;
+    background-position: center;
+}
+
+.item1{
+    background-image: url(/imagenes/cajonera.jpg);
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.item2{
+    background-image: url(/imagenes/escritorio.jpg);
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.item3{
+    background-image: url(/imagenes/estanteria.jpg);
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+.item4{
+    background-image: url(/imagenes/mesa.jpg);
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+.item5{
+    background-image: url(/imagenes/perchero.jpg);
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.item6{
+    background-image: url(/imagenes/placard.jpg);
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.item7{
+    background-image: url(/imagenes/silla.jpg);
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.item8{
+    background-image: url(/imagenes/sillon.jpg);
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+
+.galeriaDeProductos{
+    text-align: center;
+    background-color: black;
+    color: orange;
+    padding: 15px;
+}
+
+.Nosotros{
+    width: 100%;
+    min-height: 400px;
+    background-color: orange;
+}
+
+.nleft{
+    height: 400px;
+    width: 100%;
+    background-image: url(/imagenes/living-room-g0c1476c49_1280.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.nright{
+    padding: 15px;
+}
+
+.nright h3{
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+.nright a{
+    background-color: black;
+    color: orange;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.nright a:hover{
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    text-shadow: 0 0 5px black;
+}
+
+.form-group{
+    margin: 5px;
+}
+
+.Contacto{
+    text-align: center;
+}
